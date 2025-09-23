@@ -233,11 +233,6 @@ h4 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.lists-cards:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 20px var(--shadow-dark);
-}
-
 body.light-mode .lists-cards {
     background-color: var(--card-light);
     box-shadow: 0 8px 15px var(--shadow-light);
@@ -275,11 +270,6 @@ body.light-mode .lists-cards {
 body.light-mode .contact-card {
     background-color: var(--card-light);
     box-shadow: 0 8px 15px var(--shadow-light);
-}
-
-.contact-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 20px var(--shadow-dark);
 }
 
 .contact-links {
@@ -373,11 +363,6 @@ body.light-mode footer {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.project-card:hover {
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 16px 32px var(--shadow-dark);
-}
-
 .project-icon {
     font-size: 2.5rem;
     color: #4a90e2;
@@ -441,11 +426,6 @@ body.light-mode .project-info p {
     position: relative;
 }
 
-.credentials-card:hover {
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 16px 32px var(--shadow-dark);
-}
-
 .credentials-icon {
     font-size: 2.5rem;
     color: #e6c200;
@@ -484,5 +464,6 @@ body.light-mode .credentials-info h3,
 body.light-mode .credentials-info p {
     color: var(--text-light);
 }
+
 
 
