@@ -3,6 +3,8 @@
     --text-dark: #f2f2f2;
     --card-dark: #2d3447;
     --primary-gradient: linear-gradient(90deg, #4a90e2 0%, #38e8ff 100%);
+    --primary-color: #38e8ff;
+    --primary-color2: #4a90e2;
     --shadow-dark: rgba(0, 0, 0, 0.5);
     --bg-light: #e0f7fa;
     --text-light: #212121;
@@ -57,13 +59,20 @@ body.light-mode header {
 }
 
 header h1 {
-    background: var(--primary-gradient);
+    background: var(--primary-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
     font-size: 3rem;
     font-weight: bold;
     margin: 0;
+}
+
+body.light-mode header h1 {
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 #theme-toggle {
@@ -181,7 +190,6 @@ body.light-mode .tab-button.active {
     height: clamp(150px, 20vw, 250px);
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--primary-gradient);
 }
 
 .profile-info {
@@ -189,17 +197,23 @@ body.light-mode .tab-button.active {
 }
 
 .gradient-text {
-    background: var(--primary-gradient);
+    background: var(--primary-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     font-size: 1.2em;
 }
 
+body.light-mode .gradient-text {
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h2,
 h3,
 h4 {
-    margin: 0.5rem 0;
+    margin: 0.7rem 0;
 }
 
 .lists-container {
@@ -470,4 +484,5 @@ body.light-mode .credentials-info h3,
 body.light-mode .credentials-info p {
     color: var(--text-light);
 }
+
 
