@@ -75,6 +75,7 @@ body.light-mode header h1 {
     color: transparent;
 }
 
+/*Styling for my theme button*/
 #theme-toggle {
     background: none;
     border: none;
@@ -102,7 +103,7 @@ body.light-mode #theme-toggle {
     transform: scale(1.45);
 }
 
-
+/*Styling for my tabs*/
 .tabs-navigation {
     display: flex;
     justify-content: center;
@@ -216,6 +217,7 @@ h4 {
     margin: 0.7rem 0;
 }
 
+/*Styling for my lists cards*/
 .lists-container {
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +260,7 @@ body.light-mode .lists-cards {
     gap: 10px;
 }
 
-
+/*Styling for my contact cards*/
 .contact-card {
     background-color: var(--card-dark);
     border-radius: 12px;
@@ -464,6 +466,7 @@ body.light-mode .credentials-info h3,
 body.light-mode .credentials-info p {
     color: var(--text-light);
 }
+
 
 
 
